@@ -90,9 +90,19 @@
   ],
   "skills": [
     {
-      "name": "Web Development",
-      "level": "Master",
-      "keywords": ["HTML", "CSS", "JavaScript"]
+      "name": "React.js"
+    },
+    {
+      "name": "React Native"
+    },
+    {
+      "name": "Node.js"
+    },
+    {
+      "name": "Desarrollo de software"
+    },
+    {
+      "name": "Trabajo en equipo"
     }
   ],
   "languages": [
