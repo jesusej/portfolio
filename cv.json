@@ -6,7 +6,7 @@
     "email": "fake@mail.com",
     "phone": "(912) 555-4321",
     "url": "https://jesusenja.com",
-    "summary": "A summary of Jesus Enja…",
+    "summary": "Soy un ingeniero en Tecnologías Computacionales, principalmente enfocado en desarrollo web Full-Stack. Busco lograr tecnologías que nos conecten a todos como personas y seres humanos. Disfruto mucho pensar de forma creativa pero a la vez manteniendo un lado analítico, formar lazos con mis compañeros y potenciar el trabajo en equipo con ellos.",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,13 +24,20 @@
   },
   "work": [
     {
-      "name": "Company",
-      "position": "President",
-      "url": "https://company.com",
-      "startDate": "2013-01-01",
-      "endDate": "2014-01-01",
-      "summary": "Description…",
-      "highlights": ["Started the company"]
+      "name": "Break",
+      "position": "Ingeniero de Software",
+      "url": "https://breakforschools.com",
+      "startDate": "2022-07-01",
+      "endDate": "2025-07-01",
+      "summary": "Colaboré en el desarrollo de una aplicación móvil integral para la comunicación, la experiencia social y la organización de comunidades estudiantiles, padres de familia y entornos de trabajo para empresas. Adicionalmente, trabajé en una aplicación web complementaria para la administración del sistema. Los aspectos principales del sistema se desarrollaron utilizando React Native para frontend móvil, ReactJs para frontend web, MeteorJS para backend y AWS para despliegue de servidores y servicios."
+    },
+    {
+      "name": "Unidos Transport & Logistics (internado)",
+      "position": "Project Manager/Desarrollador",
+      "url": "https://www.utl.mx",
+      "startDate": "2022-08-01",
+      "endDate": "2022-12-01",
+      "summary": "Colaboré en un equipo de 4 para diseñar y desarrollar una aplicación web para gestionar todas las necesidades de la empresa cliente, enfocándome en la logística de envíos y transporte. Utilizamos React para frontend, Express.js para backend, MongoDB para base de datos y Heroku para hosting."
     }
   ],
   "volunteer": [
