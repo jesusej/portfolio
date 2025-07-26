@@ -5,7 +5,6 @@ import Mail from "@/icons/Mail.astro";
 import Phone from "@/icons/Phone.astro";
 import Github from "@/icons/Github.astro";
 import LinkedIn from "@/icons/LinkedIn.astro";
-import X from "@/icons/X.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 
 const { name, label, image, location, profiles, phone, email } = basics;
@@ -14,13 +13,12 @@ const { city, region } = location;
 const SOCIAL_ICONS: Record<string, any> = {
     Github,
     LinkedIn,
-    X,
 };
 
-const linkedInfo = profiles.find(({ network }) => network === "LinekdIn");
+const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
 const linkedUrl = linkedInfo?.url;
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
+const printInfo = [email, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
