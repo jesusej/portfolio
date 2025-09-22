@@ -1,46 +1,60 @@
-# Astro Starter Kit: Basics
+# Personal minimalist portfolio
+
+> Minimalist portfolio made for web and pdf.
+
+## About
+
+A minimalist portfolio project based on the design of Bartosz Jarocki and the tutorial by midudev. The project was made with the following stack:
+
+- AstroJs
+- Typescript
+- Ninja Keys
+- BunJS
+
+## Getting started
+
+### Prerequisites
+
+To run this project you only need to install BunJS (version 1.2.22 or higher). You can do it with the following [link](https://bun.com/docs/installation) (you can also use NodeJS, but I recommend Bun for this project).
+
+### Installation
+
+1. Clone the repository:
 
 ```sh
-bun create astro@latest -- --template basics
+git clone https://github.com/jesusej/portfolio
 ```
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+2. Navigate to the project directory:
 
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│   └── favicon.svg
-├── src
-│   ├── assets
-│   │   └── astro.svg
-│   ├── components
-│   │   └── Welcome.astro
-│   ├── layouts
-│   │   └── Layout.astro
-│   └── pages
-│       └── index.astro
-└── package.json
+```sh
+cd portfolio
 ```
 
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
+3. Install dependencies:
 
-## 🧞 Commands
+```sh
+bun install
+```
 
-All commands are run from the root of the project, from a terminal:
+4. Launch in developer mode:
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `bun install`             | Installs dependencies                            |
-| `bun dev`             | Starts local dev server at `localhost:4321`      |
-| `bun build`           | Build your production site to `./dist/`          |
-| `bun preview`         | Preview your build locally, before deploying     |
-| `bun astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `bun astro -- --help` | Get help using the Astro CLI                     |
+```sh
+bun dev # Runs in http://localhost:4321
+```
 
-## 👀 Want to learn more?
+### Other usefull commands
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+| Command       | Description                                             |
+| :------------ | :------------------------------------------------------ |
+| `dev`/`start` | Launches the developer server in `localhost:4321`.      |
+| `build`       | Lints for errors, builds and compile it into `./dist/`. |
+| `preview`     | Previews in `localhost:4321`                            |
+
+## Credits
+
+This project repository couldn't be made without the help of:
+
+- [JSON Schema](https://jsonresume.org/schema).
+- Original design by [Bartosz Jarocki](https://github.com/BartoszJarocki/cv).
+- Tutorial by [Miguel Ángel Durán (midudev)](https://github.com/midudev/minimalist-portfolio-json)
