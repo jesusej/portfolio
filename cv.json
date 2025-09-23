@@ -6,7 +6,7 @@
     "email": "jesus-e98@hotmail.com",
     "phone": "+52 (662) 346 4331",
     "url": "https://jesusenja.com",
-    "summary": "Soy un ingeniero en Tecnologías Computacionales, principalmente enfocado en desarrollo web Full-Stack. Busco lograr tecnologías que nos conecten a todos como personas y seres humanos. Disfruto mucho pensar de forma creativa pero a la vez manteniendo un lado analítico, formar lazos con mis compañeros y potenciar el trabajo en equipo con ellos.",
+    "summary": "Más de 3 años de experiencia como Ingeniero de Software. Trabajé como Lead Developer en Break, una aplicación móvil y web social, contribuyendo al desarrollo del FrontEnd, mantenimiento del Servidor, la Base de Datos y la Gestión de Aplicaciones en Google Play y App Store. Actualmente estoy desarrollando proyectos personales con AstroJs y Vite.",
     "location": {
       "city": "Hermosillo",
       "countryCode": "MX",
@@ -28,11 +28,11 @@
   "work": [
     {
       "name": "Break",
-      "position": "Ingeniero de Software",
+      "position": "Lead Software Engineer",
       "url": "https://breakforschools.com",
       "startDate": "2022-07-01",
       "endDate": "2025-07-01",
-      "summary": "Colaboré en el desarrollo de una aplicación móvil integral para la comunicación, la experiencia social y la organización de comunidades estudiantiles, padres de familia y entornos de trabajo para empresas. Adicionalmente, trabajé en una aplicación web complementaria para la administración del sistema. Los aspectos principales del sistema se desarrollaron utilizando React Native para frontend móvil, ReactJs para frontend web, MeteorJS para backend y AWS para despliegue de servidores y servicios."
+      "summary": "Desarrollé una aplicación móvil integral para la comunicación, experiencia social y organización de comunidades estudiantiles, padres de familia y entornos de trabajo para empresas; así como una aplicación web complementaria para la administración del sistema. El sistema se desarrolló utilizando React Native y ReactJS para frontend, MeteorJS para backend, una instancia de MongoDB desplegada en MongoDB Atlas y AWS para despliegue de servicios."
     },
     {
       "name": "Unidos Transport & Logistics (internado)",
@@ -40,7 +40,7 @@
       "url": "https://www.utl.mx",
       "startDate": "2022-08-01",
       "endDate": "2022-12-01",
-      "summary": "Colaboré en un equipo de 4 para diseñar y desarrollar una aplicación web para gestionar todas las necesidades de la empresa cliente, enfocándome en la logística de envíos y transporte. Utilizamos React para frontend, Express.js para backend, MongoDB para base de datos y Heroku para hosting."
+      "summary": "Lideré un equipo de 4 personas para diseñar y desarrollar una página web que gestionara todas las necesidades del cliente, enfocándome en la logística de envíos y transporte. Administré el equipo durante 4 meses, asignando roles según sus habilidades técnicas y blandas, lo que nos permitió alcanzar nuestros objetivos y reducir los costos para el cliente. Utilizamos React para frontend, Express.js para backend, MongoDB para base de datos y Heroku para hosting."
     }
   ],
   "volunteer": [
@@ -104,6 +104,9 @@
     },
     {
       "name": "Trabajo en equipo"
+    },
+    {
+      "name": "Proactividad"
     }
   ],
   "languages": [
@@ -126,13 +129,25 @@
   ],
   "projects": [
     {
-      "name": "Project",
-      "startDate": "2019-01-01",
-      "endDate": "2021-01-01",
-      "description": "Description...",
-      "highlights": ["Won award at AIHacks 2016"],
-      "url": "https://project.com/",
-      "isActive": false
+      "name": "Feathers backend challenge",
+      "startDate": "2025-09-01",
+      "description": "Desafío de API de conversión de divisas (FIAT y criptomonedas) creado con un stack de FeathersJS. El desafío se diseñó pensando en un posible caso real y fue solicitado por alguien para poner a prueba mis habilidades. El desafío se completó en 3 días. Actualmente lo sigo actualizando para agregar más funcionalidades.",
+      "url": "https://github.com/jesusej/feathers-backend-challenge",
+      "isActive": true,
+      "highlights": [
+        "Challenge técnico",
+        "FeathersJS",
+        "API",
+        "Conversión de divisas"
+      ]
+    },
+    {
+      "name": "Frontend Vite Challenge",
+      "startDate": "2025-09-17",
+      "description": "Aplicación web de gestión de facturas desarrollada con React y Vite. El reto se planteó pensando en un microfrontend web real para facturas y se diseñó como una forma de aprender el entorno de Vite y nuevas librerías como CoreUI-Pro, AG Grid, etc. La meta principal se completó en un día. Actualmente lo sigo actualizando para agregar más funcionalidades.",
+      "url": "https://github.com/jesusej/frontend-vite-challenge",
+      "isActive": true,
+      "highlights": ["Challenge técnico", "React", "Vite", "Facturas"]
     }
   ]
 }
