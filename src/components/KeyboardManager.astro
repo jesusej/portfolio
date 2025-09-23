@@ -1,5 +1,6 @@
 ---
 import { basics } from "@cv";
+import AboutProject from "./modals/AboutProject.astro";
 
 const { profiles } = basics;
 
@@ -43,6 +44,8 @@ const profilesInfo = profiles.filter(Boolean).map(({ network, url }) => {
 });
 ---
 
+<AboutProject />
+
 <footer class="no-print">
     Pulsa <kbd>Cmd</kbd> + <kbd>K</kbd> para abrir la paleta de comandos.
 </footer>
@@ -81,6 +84,15 @@ const profilesInfo = profiles.filter(Boolean).map(({ network, url }) => {
                 section: "Acciones",
                 handler: () => {
                     window.print();
+                },
+            },
+            {
+                id: "about-project",
+                title: "ℹ️ Acerca de este curriculum",
+                hotkey: "ctrl+A",
+                section: "Acciones",
+                handler: () => {
+                    (document.getElementById("about-project") as HTMLDialogElement).showModal();
                 },
             },
             ...data,

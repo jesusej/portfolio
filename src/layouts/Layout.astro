@@ -6,7 +6,9 @@ const { title } = Astro.props;
 <html lang="es">
     <head>
         <meta charset="UTF-8" />
-        <meta name="description" content="Portfolio" />
+        <meta name="keywords" content="Portfolio, Jesus Enríquez Jaime, Ingeniero de Software, Desarrollo de software" />
+        <meta name="description" content="Portafolio profesional de Jesus Enríquez Jaime. Contiene experiencias, habilidades, proyectos y contactos." />
+        <meta name="author" content="Jesus Enríquez Jaime" />
         <meta name="viewport" content="width=device-width" />
         <meta name="generator" content={Astro.generator} />
         <title>{title}</title>
@@ -93,5 +95,35 @@ const { title } = Astro.props;
         .print {
             display: block !important;
         }
+    }
+
+    #about-project .main {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #about-project button {
+        border-radius: 10px;
+        color: #777;
+        background-color: #fff;
+        border: 1px solid #eee;
+        padding: 4px;
+        height: 32px;
+        width: 64px;
+    }
+
+    #about-project button:hover {
+        background: #eee;
+        border: 1px solid #ddd;
+        color: #666;
+    }
+
+    #about-project ul {
+        list-style: disc;
+        padding: revert;
+        margin: 5px;
+        color: #777;
+        font-size: 0.9rem;
+        line-height: 1.5;
     }
 </style>
