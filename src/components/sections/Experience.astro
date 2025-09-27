@@ -18,7 +18,7 @@ import { work } from "@cv";
                 }) => {
                     const startYear = new Date(startDate).getFullYear();
                     const endYear =
-                        endDate !== null
+                        endDate
                             ? new Date(endDate).getFullYear()
                             : "Presente";
                     const years = `${startYear} - ${endYear}`;

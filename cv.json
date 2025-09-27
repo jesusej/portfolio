@@ -6,7 +6,7 @@
     "email": "jesus-e98@hotmail.com",
     "phone": "+52 (662) 346 4331",
     "url": "https://jesusenja.com",
-    "summary": "Más de 3 años de experiencia como Ingeniero de Software. Trabajé como Lead Developer en Break, una aplicación móvil y web social, contribuyendo al desarrollo del FrontEnd, mantenimiento del Servidor, la Base de Datos y la Gestión de Aplicaciones en Google Play y App Store. Actualmente estoy desarrollando proyectos personales con AstroJs y Vite.",
+    "summary": "Más de 3 años de experiencia como Ingeniero de Software. Actualmente trabajo como Web Developer en Customs City, una plataforma web para la administración de cumplimiento aduanero desarrollando frontend con React y Vite, y backend con FeathersJS. También desarrollo proyectos personales con AstroJS y Vite.",
     "location": {
       "city": "Hermosillo",
       "countryCode": "MX",
@@ -26,6 +26,13 @@
     ]
   },
   "work": [
+    {
+      "name": "Customs City",
+      "position": "Web Developer",
+      "url": "https://customscity.com",
+      "startDate": "2025-09-01",
+      "summary": "Actualmente desarrollo una plataforma web para la administración de cumplimiento aduanero y presentación de declaraciones electrónicas. Actualmente me encuentro trabajando en frontend con React y Vite, y en backend con FeathersJS."
+    },
     {
       "name": "Break",
       "position": "Lead Software Engineer",
