@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "@astrojs/vercel": "8.2.8",
-    "astro": "5.14.1",
+    "astro": "5.14.3",
     "ninja-keys": "^1.2.2"
   }
 }
