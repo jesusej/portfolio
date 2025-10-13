@@ -1,5 +1,5 @@
 {
-  "name": "",
+  "name": "portfolio",
   "type": "module",
   "version": "0.0.1",
   "scripts": {
@@ -9,8 +9,8 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/vercel": "8.2.8",
-    "astro": "5.14.1",
-    "ninja-keys": "^1.2.2"
+    "@astrojs/vercel": "8.2.9",
+    "astro": "5.14.4",
+    "ninja-keys": "1.2.2"
   }
 }
