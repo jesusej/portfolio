@@ -4,35 +4,37 @@ import Modal from "../Modal.astro";
 
 <Modal id="about-project">
   <div class="modal-content" slot="main">
-      <h2>Sobre este portafolio</h2>
-      
-      <div class="main">
-          <p>Este portafolio está basado en el diseño de <a href="https://cv.jarocki.me">Bartosz Jarocki</a> y el <a href="https://www.youtube.com/watch?v=Zwh92LTB-Bk">tutorial de midudev</a>.</p>
-          <p>Puedes ver el repositorio en <a href="https://github.com/jesusenja/portfolio">GitHub</a>.</p>
-      </div>
+    <h2>Sobre este portafolio</h2>
 
-      <div class="stack">
-          <p>
-              El stack utilizado para este portafolio es:
-              <ul>
-                  <li>
-                      <span>Astro</span>
-                  </li>
-                  <li>
-                      Typescript
-                  </li>
-                  <li>
-                      Ninja Keys
-                  </li>
-                  <li>
-                      BunJS
-                  </li>
-                  <li>
-                      Vercel
-                  </li>
-              </ul>
-          </p>
-      </div>
+    <div class="main">
+      <p>
+        Este portafolio está basado en el diseño de <a
+          href="https://cv.jarocki.me">Bartosz Jarocki</a
+        > y el <a href="https://www.youtube.com/watch?v=Zwh92LTB-Bk"
+          >tutorial de midudev</a
+        >.
+      </p>
+      <p>
+        Puedes ver el repositorio en <a
+          href="https://github.com/jesusenja/portfolio">GitHub</a
+        >.
+      </p>
+    </div>
+
+    <div class="stack">
+      <p>
+        El stack utilizado para este portafolio es:
+        <ul>
+          <li>
+            <span>Astro</span>
+          </li>
+          <li>Typescript</li>
+          <li>Ninja Keys</li>
+          <li>BunJS</li>
+          <li>Vercel</li>
+        </ul>
+      </p>
+    </div>
   </div>
   <button slot="close">Cerrar</button>
 </Modal>
