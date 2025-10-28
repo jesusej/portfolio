@@ -136,7 +136,7 @@
   ],
   "projects": [
     {
-      "name": "Feathers backend challenge",
+      "name": "Feathers Backend Challenge",
       "startDate": "2025-09-01",
       "description": "Desafío de API de conversión de divisas (FIAT y criptomonedas) creado con un stack de FeathersJS. El desafío se diseñó pensando en un posible caso real y fue solicitado por alguien para poner a prueba mis habilidades. El desafío se completó en 3 días. Actualmente lo sigo actualizando para agregar más funcionalidades.",
       "url": "https://github.com/jesusej/feathers-backend-challenge",
