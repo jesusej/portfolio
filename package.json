@@ -6,7 +6,8 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "eslint \"src/**/*.{js,astro}\""
   },
   "dependencies": {
     "@astrojs/vercel": "9.0.0",
@@ -14,6 +15,10 @@
     "ninja-keys": "1.2.2"
   },
   "devDependencies": {
+    "@typescript-eslint/parser": "^8.46.4",
+    "eslint": "^9.39.1",
+    "eslint-plugin-astro": "^1.5.0",
+    "eslint-plugin-jsx-a11y": "^6.10.2",
     "prettier": "^3.6.2",
     "prettier-plugin-astro": "^0.14.1"
   }
