@@ -10,8 +10,8 @@
     "lint": "eslint \"src/**/*.{js,astro}\""
   },
   "dependencies": {
-    "@astrojs/vercel": "9.0.0",
-    "astro": "5.15.9",
+    "@astrojs/vercel": "10.0.2",
+    "astro": "5.18.1",
     "ninja-keys": "1.2.2"
   },
   "devDependencies": {
