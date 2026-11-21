@@ -6,7 +6,7 @@
     "email": "jesus-e98@hotmail.com",
     "phone": "+52 (662) 346 4331",
     "url": "https://jesusenja.com",
-    "summary": "Más de 3 años de experiencia como Ingeniero de Software. Actualmente trabajo como Web Developer en Customs City, una plataforma web para la administración de cumplimiento aduanero desarrollando frontend con React y Vite, y backend con FeathersJS. También desarrollo proyectos personales con AstroJS y Vite.",
+    "summary": "Más de 4 años de experiencia como Ingeniero de Software. Actualmente trabajo como Web Developer en Customs City, una plataforma web para la administración de cumplimiento aduanero desarrollando frontend con React y Vite, y backend con FeathersJS. También desarrollo proyectos personales con AstroJS y Vite.",
     "location": {
       "city": "Hermosillo",
       "countryCode": "MX",
@@ -28,10 +28,10 @@
   "work": [
     {
       "name": "Customs City",
-      "position": "Web Developer",
+      "position": "Mobile Developer",
       "url": "https://customscity.com",
-      "startDate": "2025-09-01",
-      "summary": "Actualmente desarrollo una plataforma web para la administración de cumplimiento aduanero y presentación de declaraciones electrónicas. Actualmente me encuentro trabajando en frontend con React y Vite, y en backend con FeathersJS."
+      "startDate": "2025-09-16",
+      "summary": "Actualmente desarrollo y manejo una aplicación móvil para la revisión de documentos de cumplimiento aduanero y estado de cumplimiento para iOS y Android. Aparte de desarrollar, administro el envío y cumplimiento de la app para App Store y Google Play. Está hecho en frontend con Expo y en backend con FeathersJS"
     },
     {
       "name": "Break",
@@ -138,9 +138,10 @@
     {
       "name": "Feathers Backend Challenge",
       "startDate": "2025-09-01",
-      "description": "Desafío de API de conversión de divisas (FIAT y criptomonedas) creado con un stack de FeathersJS. El desafío se diseñó pensando en un posible caso real y fue solicitado por alguien para poner a prueba mis habilidades. El desafío se completó en 3 días. Actualmente lo sigo actualizando para agregar más funcionalidades.",
+      "endDate": "2025-09-22",
+      "description": "Desafío de API de conversión de divisas (FIAT y criptomonedas) creado con un stack de FeathersJS. El desafío se diseñó pensando en un posible caso real y fue solicitado por alguien para poner a prueba mis habilidades. El desafío se completó en 3 días. Continué agregando funcionalidades por breve tiempo hasta que dejé su desarrollo.",
       "url": "https://github.com/jesusej/feathers-backend-challenge",
-      "isActive": true,
+      "isActive": false,
       "highlights": [
         "Challenge técnico",
         "FeathersJS",
@@ -151,9 +152,10 @@
     {
       "name": "Frontend Vite Challenge",
       "startDate": "2025-09-17",
-      "description": "Aplicación web de gestión de facturas desarrollada con React y Vite. El reto se planteó pensando en un microfrontend web real para facturas y se diseñó como una forma de aprender el entorno de Vite y nuevas librerías como CoreUI-Pro, AG Grid, etc. La meta principal se completó en un día. Actualmente lo sigo actualizando para agregar más funcionalidades.",
+      "endDate": "2025-09-22",
+      "description": "Aplicación web de gestión de facturas desarrollada con React y Vite. El reto se planteó pensando en un microfrontend web real para facturas y se diseñó como una forma de aprender el entorno de Vite y nuevas librerías como CoreUI-Pro, AG Grid, etc. La meta principal se completó en un día. Continué agregando funcionalidades por breve tiempo hasta que dejé su desarrollo.",
       "url": "https://github.com/jesusej/frontend-vite-challenge",
-      "isActive": true,
+      "isActive": false,
       "highlights": ["Challenge técnico", "React", "Vite", "Facturas"]
     }
   ]
